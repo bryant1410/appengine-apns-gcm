@@ -1,8 +1,8 @@
-#appengine-apns-gcm#
+# appengine-apns-gcm #
 
 A unified push service for iPhone and Android push notifications that runs on Google App Engine (GAE). This can be used as an alternative to Urban Airship if all you are doing is basic push notifications.
 
-##how to deploy##
+## how to deploy ##
 1. Clone or download this project
 2. Create a new app engine project id at http://appengine.google.com
 3. Enable billing on your new project (required for iOS push support)
@@ -19,7 +19,7 @@ A unified push service for iPhone and Android push notifications that runs on Go
 14. Enter your GCM API Key from the Google API Console
 15. Enter your push certificate information for iOS (export your push certificate to a .pem file, and copy the certificate and private key and paste it here. Include the -----BEGIN/END CERTIFICATE----- and -----BEGIN/END PRIVATE KEY-----
 
-##now what?##
+## now what? ##
 1. Launch your sample iOS and Android apps to enable push on your devices
 2. Send an HTTP POST to send a push notification to all your devices
 
